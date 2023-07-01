@@ -32,7 +32,7 @@ public:
 	{
 		node* newnode = new node(element, NULL, NULL); //Allocate memory fot the new node
 		newnode->info = element; // assign value to the data field of the new node
-		newnode->
+		newnode->leftchild = NULL; // Make the left child of the new node point to NULL
 		newnode->
 	}
 };
