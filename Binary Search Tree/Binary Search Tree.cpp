@@ -34,5 +34,9 @@ public:
 		newnode->info = element; // assign value to the data field of the new node
 		newnode->leftchild = NULL; // Make the left child of the new node point to NULL
 		newnode->rightchild = NULL; // Make the right child of the new node point to NULL
+
+		node* parent = NULL;
+		node* currentnode = NULL;
+		search(element, parent, currentnode); // locate the node which will be the parent of the node to be 
 	}
 };
